@@ -1,0 +1,306 @@
+@font-face {font-family:"Biko";src:url("Biko_Regular.eot?") format("eot"),url("Biko_Regular.woff") format("woff"),url("Biko_Regular.ttf") format("truetype"),url("Biko_Regular.svg#Biko") format("svg");font-weight:normal;font-style:normal;}
+
+@font-face {font-family:"Biko-Bold";src:url("Biko_Bold.eot?") format("eot"),url("Biko_Bold.woff") format("woff"),url("Biko_Bold.ttf") format("truetype"),url("Biko_Bold.svg#Biko-Bold") format("svg");font-weight:normal;font-style:normal;}
+
+body {
+	font-family: "Biko", sans-serif;
+	font-size: 0.8333vw;
+	color: #4b4b4b;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+	
+.blue-bg {
+	background: #293991;
+	color: #fff;
+}
+
+.red-bg {
+	background: #ed1d25;
+	color: #fff;
+}
+
+.orange-bg {
+	background: #f1592b;
+	color: #fff;
+}
+
+.green-bg {
+	background: #0b9445;
+	color: #fff;
+}
+
+.lime-bg {
+	background: #8dc63f;
+	color: #fff;
+}
+
+.sky-bg {
+	background: #00aeef;
+	color: #fff;
+}
+
+#mainhead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	background: rgba(0,0,0,0.5);
+}
+
+#mainhead.solid {
+	position: relative;
+}
+
+#mainhead.solid.white {
+	background: #fff;
+}
+
+#logo.white-logo {
+	background-position: 0px 0px;
+}
+
+#logo.green-logo {
+	background-position: 0px -100px;
+}
+
+#logo.blue-logo {
+	background-position: 0px -200px;
+}
+
+#logo.orange-logo {
+	background-position: 0px -300px;
+}
+
+#logo.sky-logo {
+	background-position: 0px -400px;
+}
+
+#logo.lime-logo {
+	background-position: 0px -500px;
+}
+
+#logo.red-logo {
+	background-position: 0px -600px;
+}
+
+#mainnav {
+	float: right;
+}
+
+#mainnav ul {
+	text-align: right;
+}
+
+#mainnav ul li {
+	display: inline-block;
+	padding-right: 3em;
+	padding-top: 3.25em;
+}
+
+#mainnav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	font-family: "Biko-Bold", sans-serif;
+}
+
+.solid.white #mainnav ul li a {
+	color: #4b4b4b;
+}
+
+#intro-slider {
+	height: 90vh;
+	margin: 0;
+	position: relative;
+}
+
+#intro-slider .slide {
+	position: relative;
+	height: 90vh;
+	width: 100vw;
+	overflow: hidden;
+}
+
+#intro-slider .slide img {
+	display: block;
+	width: 100%;
+	margin-top: -5em;
+}
+
+#intro-slider blockquote {
+	margin: 0;
+	position: absolute;
+	top: 43%;
+	left: 7.5%;
+	width: 35%;
+	font-size: 1.875em;
+	line-height: 1.5;
+	padding: 1.5em;
+	color: #fff;
+	background: #e84147;
+}
+
+#intro-slider blockquote cite {
+	display: block;
+	margin-left: 1em;
+}
+
+#what {
+	display: block;
+	width: 75em;
+	margin: 7em auto;
+}
+
+#what h2 {
+	font-size: 3em;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Biko-Bold", sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+
+#what p {
+	font-size: 1.875em;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+#what .button {
+	display: inline-block;
+	background: #ed1c24;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.875em;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+#icons .row {
+	width: 100%;
+	margin: 0;
+}
+
+#icons .column {
+	float: left;
+	width: 33.3333%;
+	margin: 0;
+	margin-top: -0.3em;
+}
+
+#icons .column img {
+	width: 50%;
+	margin: 3em 25%;
+	display: inline-block;
+}
+
+#icons .column h4 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 0 3rem 0;
+	font-size: 2em;
+	font-family: 'Biko-Bold', sans-serif;
+}
+
+#mainfoot {
+	background: #4b4b4b;
+	height: 12.625em;
+	width: 100%;
+	margin-top: -0.5em;
+	position: relative;
+	z-index: 99;
+}
+
+#intro-paragraph {
+	padding: 3em;
+}
+
+#intro-paragraph h2 {
+	font-size: 3em;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Biko-Bold", sans-serif;
+	font-weight: normal;
+}
+
+#intro-paragraph p {
+	font-size: 1.875em;
+	line-height: 1.5;
+	width: 66.6667%;
+}
+
+#intro-paragraph .icon {
+	float: right;
+	width: 15%;
+	margin-right: 5%;
+}
+
+#tab-nav {
+	width: 75em;
+	margin: 0 auto;
+}
+
+#tab-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+}
+
+#tab-nav ul li {
+	display: inline-block;
+	padding: 1.5em 3em;
+}
+
+#tab-nav ul li.current {
+	background: #e9ebf4;
+}
+
+#tab-nav ul li a {
+	font-size: 1.75em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #4b4b4b;
+	font-family: "Biko-Bold", sans-serif;
+	font-weight: normal;
+}
+
+#interest {
+	background: #e9ebf4;
+}
+
+#interest .inner {
+	width: 75em;
+	margin: 4em auto;
+}
+
+#interest .inner h3 {
+	text-align: center;
+	margin: 0 0 2em 0;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #4b4b4b;
+	font-size: 1.75em;
+	line-height: 1.4;
+	font-family: "Biko-Bold", sans-serif;
+	font-weight: normal;
+}
+
+h4.question {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 1.75em;
+	margin: 2em 0 0.25em 0;
+}
+
+#interest .inner p {
+	font-size: 1.5em;
+	line-height: 1.6;
+}
